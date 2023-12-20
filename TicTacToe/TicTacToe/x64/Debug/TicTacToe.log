@@ -1,0 +1,4 @@
+﻿  ai.cpp
+G:\Dev\TicTacToe\TicTacToe\ai.cpp(141,20): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+G:\Dev\TicTacToe\TicTacToe\ai.cpp(141,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  TicTacToe.vcxproj -> G:\Dev\TicTacToe\x64\Debug\TicTacToe.exe

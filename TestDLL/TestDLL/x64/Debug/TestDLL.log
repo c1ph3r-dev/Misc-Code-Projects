@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  calc.cpp
+G:\Dev\TestDLL\TestDLL\calc.cpp(7,6): warning C4273: 'addition': inconsistent dll linkage
+G:\Dev\TestDLL\TestDLL\calc.h(9,33): message : see previous definition of 'addition'
+G:\Dev\TestDLL\TestDLL\calc.cpp(12,6): warning C4273: 'subtraction': inconsistent dll linkage
+G:\Dev\TestDLL\TestDLL\calc.h(11,33): message : see previous definition of 'subtraction'
+  dllmain.cpp
+  Generating Code...
+     Creating library G:\Dev\TestDLL\x64\Debug\TestDLL.lib and object G:\Dev\TestDLL\x64\Debug\TestDLL.exp
+  TestDLL.vcxproj -> G:\Dev\TestDLL\x64\Debug\TestDLL.dll

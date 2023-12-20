@@ -1,0 +1,22 @@
+﻿  pch.cpp
+  dllmain.cpp
+  J_Cipher.cpp
+G:\Dev\J-Cipher\J-Cipher\J_Cipher.h(14,17): warning C4251: 'JCIPHER::mainEncrypt': class 'Enigma::Core' needs to have dll-interface to be used by clients of class 'JCIPHER'
+G:\Dev\J-Cipher\include\Core\Core.h(12): message : see declaration of 'Enigma::Core'
+G:\Dev\J-Cipher\J-Cipher\J_Cipher.h(15,17): warning C4251: 'JCIPHER::backupEncrypt': class 'Enigma::Core' needs to have dll-interface to be used by clients of class 'JCIPHER'
+G:\Dev\J-Cipher\include\Core\Core.h(12): message : see declaration of 'Enigma::Core'
+G:\Dev\J-Cipher\J-Cipher\J_Cipher.h(16,20): warning C4251: 'JCIPHER::Vig': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'JCIPHER'
+G:\Dev\J-Cipher\include\Ciphers.h(17): message : see declaration of 'std::vector<char,std::allocator<char>>'
+G:\Dev\J-Cipher\J-Cipher\J_Cipher.cpp(4,15): warning C4273: 'JCIPHER::Generate_Key': inconsistent dll linkage
+G:\Dev\J-Cipher\J-Cipher\J_Cipher.h(19,7): message : see previous definition of 'Generate_Key'
+G:\Dev\J-Cipher\J-Cipher\J_Cipher.cpp(73,16): warning C4834: discarding return value of function with 'nodiscard' attribute
+G:\Dev\J-Cipher\J-Cipher\J_Cipher.cpp(77,15): warning C4273: 'JCIPHER::Offset': inconsistent dll linkage
+G:\Dev\J-Cipher\J-Cipher\J_Cipher.h(20,7): message : see previous definition of 'Offset'
+G:\Dev\J-Cipher\J-Cipher\J_Cipher.cpp(82,15): warning C4273: 'JCIPHER::Reset': inconsistent dll linkage
+G:\Dev\J-Cipher\J-Cipher\J_Cipher.h(21,7): message : see previous definition of 'Reset'
+     Creating library G:\Dev\J-Cipher\x64\Release\J-Cipher.lib and object G:\Dev\J-Cipher\x64\Release\J-Cipher.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 290 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  J-Cipher.vcxproj -> G:\Dev\J-Cipher\x64\Release\J-Cipher.dll

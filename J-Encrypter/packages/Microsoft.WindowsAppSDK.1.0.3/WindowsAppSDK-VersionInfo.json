@@ -1,0 +1,28 @@
+﻿{
+    "Release": {
+        "Major": 1,
+        "Minor": 0,
+        "Patch": 3,
+        "MajorMinor": {
+            "UInt32": 65536,
+            "HexUInt32": 00010000
+        },
+
+        "Channel": "",
+        "VersionTag": "",
+        "VersionShortTag": ""
+    },
+
+    "Runtime": {
+        "Identity" : {
+            "Publisher" : "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+            "PublisherId" : "8wekyb3d8bbwe"
+        },
+        "Version": {
+            "DotQuadNumber": "3.469.1654.0",
+            "UInt16": 846439378190336,
+            "HexUInt16": "0x000301D506760000",
+            "String": "3.469.1654.0"
+        }
+    }
+}

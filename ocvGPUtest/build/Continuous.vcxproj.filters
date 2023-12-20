@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\Dev\ocvGPUtest\build\CMakeFiles\4b758538278a2f9718764f25c84a8d00\Continuous.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\Dev\ocvGPUtest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\Dev\ocvGPUtest\build\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{094085E5-508E-36A3-9039-1BBC2D94C43C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

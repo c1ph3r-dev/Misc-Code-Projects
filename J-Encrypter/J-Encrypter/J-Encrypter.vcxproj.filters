@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainWindow.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="App.idl" />
+    <Midl Include="MainWindow.idl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+    <ClCompile Include="J_Cipher.cpp" />
+    <ClCompile Include="Core.cpp">
+      <Filter>Logic\Enigma\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotor.cpp">
+      <Filter>Logic\Enigma\Rotor</Filter>
+    </ClCompile>
+    <ClCompile Include="Pair.cpp">
+      <Filter>Logic\Enigma\Pair</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="J_Cipher.h" />
+    <ClInclude Include="Vigenere.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Logic\Enigma\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericInclude.h">
+      <Filter>Logic\Enigma\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Rotor.h">
+      <Filter>Logic\Enigma\Rotor</Filter>
+    </ClInclude>
+    <ClInclude Include="Pair.h">
+      <Filter>Logic\Enigma\Pair</Filter>
+    </ClInclude>
+    <ClInclude Include="Enigma.h">
+      <Filter>Logic\Enigma</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{28b5758b-b979-47a3-b21d-9d9756167f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{29fde5e3-7c09-4315-8f90-74923feeae79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Enigma">
+      <UniqueIdentifier>{27dece1e-310a-428c-8740-9018040e9da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Enigma\Core">
+      <UniqueIdentifier>{34064be7-20be-4479-a1fd-30d8719a8083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Enigma\Pair">
+      <UniqueIdentifier>{49b02f37-cc9e-4251-8b1b-212ccffe1595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Enigma\Rotor">
+      <UniqueIdentifier>{69c4b36b-4c33-4ee5-8f97-433adf5134e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+</Project>

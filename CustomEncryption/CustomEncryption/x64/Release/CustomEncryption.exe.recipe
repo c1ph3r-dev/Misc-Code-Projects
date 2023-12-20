@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>G:\Dev\CustomEncryption\x64\Release\CustomEncryption\CustomEncryption.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>G:\Dev\CustomEncryption\CustomEncryption\Assets\LockScreenLogo.scale-200.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>G:\Dev\CustomEncryption\CustomEncryption\Assets\SplashScreen.scale-200.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>G:\Dev\CustomEncryption\CustomEncryption\Assets\Square150x150Logo.scale-200.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>G:\Dev\CustomEncryption\CustomEncryption\Assets\Square44x44Logo.scale-200.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>G:\Dev\CustomEncryption\CustomEncryption\Assets\Square44x44Logo.targetsize-24_altform-unplated.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>G:\Dev\CustomEncryption\CustomEncryption\Assets\StoreLogo.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>G:\Dev\CustomEncryption\CustomEncryption\Assets\Wide310x150Logo.scale-200.png</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

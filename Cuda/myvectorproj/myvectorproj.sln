@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myvectorproj", "myvectorproj\myvectorproj.vcxproj", "{EF4E2B0E-EDB0-4076-869E-7C7190453B23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF4E2B0E-EDB0-4076-869E-7C7190453B23}.Debug|x64.ActiveCfg = Debug|x64
+		{EF4E2B0E-EDB0-4076-869E-7C7190453B23}.Debug|x64.Build.0 = Debug|x64
+		{EF4E2B0E-EDB0-4076-869E-7C7190453B23}.Release|x64.ActiveCfg = Release|x64
+		{EF4E2B0E-EDB0-4076-869E-7C7190453B23}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B78E07F7-8406-4081-A808-9FBF8267EA7C}
+	EndGlobalSection
+EndGlobal

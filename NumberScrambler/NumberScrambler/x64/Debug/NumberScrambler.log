@@ -1,0 +1,3 @@
+﻿  main.cpp
+G:\Dev\NumberScrambler\NumberScrambler\main.cpp(19): warning C4715: 'Scramble': not all control paths return a value
+  NumberScrambler.vcxproj -> G:\Dev\NumberScrambler\x64\Debug\NumberScrambler.exe

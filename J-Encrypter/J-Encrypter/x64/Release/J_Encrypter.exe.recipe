@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>G:\Dev\J-Encrypter\x64\Release\J-Encrypter\J_Encrypter.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>G:\Dev\J-Encrypter\J-Encrypter\Assets\LockScreenLogo.scale-200.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>G:\Dev\J-Encrypter\J-Encrypter\Assets\SplashScreen.scale-200.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>G:\Dev\J-Encrypter\J-Encrypter\Assets\Square150x150Logo.scale-200.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>G:\Dev\J-Encrypter\J-Encrypter\Assets\Square44x44Logo.scale-200.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>G:\Dev\J-Encrypter\J-Encrypter\Assets\Square44x44Logo.targetsize-24_altform-unplated.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>G:\Dev\J-Encrypter\J-Encrypter\Assets\StoreLogo.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>G:\Dev\J-Encrypter\J-Encrypter\Assets\Wide310x150Logo.scale-200.png</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

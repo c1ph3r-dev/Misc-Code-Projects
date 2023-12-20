@@ -1,0 +1,25 @@
+﻿  MainWindow.xaml.cpp
+G:\Dev\J-Encrypter\J-Encrypter\MainWindow.xaml.cpp(65,59): warning C4244: 'argument': conversion from 'int' to 'Enigma::Enigma_Short', possible loss of data
+G:\Dev\J-Encrypter\J-Encrypter\MainWindow.xaml.cpp(65,52): warning C4244: 'argument': conversion from 'int' to 'Enigma::Enigma_Short', possible loss of data
+G:\Dev\J-Encrypter\J-Encrypter\MainWindow.xaml.cpp(65,45): warning C4244: 'argument': conversion from 'int' to 'Enigma::Enigma_Short', possible loss of data
+G:\Dev\J-Encrypter\J-Encrypter\MainWindow.xaml.cpp(105,43): warning C4244: '=': conversion from '_Ty' to 'char', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+G:\Dev\J-Encrypter\J-Encrypter\MainWindow.xaml.cpp(106,47): warning C4244: '=': conversion from '_Ty' to 'char', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+G:\Dev\J-Encrypter\J-Encrypter\MainWindow.xaml.cpp(110,20): warning C4834: discarding return value of function with 'nodiscard' attribute
+G:\Dev\J-Encrypter\J-Encrypter\MainWindow.xaml.cpp(35,136): warning C4100: 'e': unreferenced formal parameter
+G:\Dev\J-Encrypter\J-Encrypter\MainWindow.xaml.cpp(35,77): warning C4100: 'sender': unreferenced formal parameter
+  Generating code
+  Finished generating code
+     Creating library G:\Dev\J-Encrypter\x64\Release\J-Encrypter\J_Encrypter.lib and object G:\Dev\J-Encrypter\x64\Release\J-Encrypter\J_Encrypter.exp
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 2660 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  J-Encrypter.vcxproj -> G:\Dev\J-Encrypter\x64\Release\J-Encrypter\J_Encrypter.exe

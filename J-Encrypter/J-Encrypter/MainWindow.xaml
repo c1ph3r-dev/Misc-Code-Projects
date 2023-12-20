@@ -1,0 +1,32 @@
+﻿<Window
+    x:Class="J_Encrypter.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:J_Encrypter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+	<StackPanel     Orientation="Horizontal"  HorizontalAlignment="Center"     VerticalAlignment="Top">
+
+		<StackPanel Orientation="Vertical"    HorizontalAlignment="Center"      VerticalAlignment="Top">
+
+			<TextBlock Text="Input Text:"           Margin="0,10,0,0"                   HorizontalAlignment="Center"/>
+			<TextBox x:Name="inpTxt"                Margin="10"         Width="800"     HorizontalAlignment="Center"/>
+
+			<Button Content="Encrypt/Decrypt"       Margin="15"         HorizontalAlignment="Center"    IsEnabled="False"/>
+
+			<TextBlock Text="Output Text:"          Margin="0,10,0,0"                   HorizontalAlignment="Center"/>
+			<TextBox x:Name="outTxt"                Margin="10"         Width="800"     HorizontalAlignment="Center"    IsReadOnly="True"/>
+
+			<TextBlock Text="Seed for Key Gen:"     Margin="0,40,0,0"   HorizontalAlignment="Center"/>
+			<TextBox x:Name="seedTxt"               Margin="10"         Width="200"/>
+
+			<Button Content="Generate Key"          Margin="15"         HorizontalAlignment="Center"    Click="GenKey"/>
+
+			<TextBlock Text="Offset amount:"        Margin="0,40,0,0"   HorizontalAlignment="Center"/>
+			<TextBox x:Name="offTxt"                Margin="10"/>
+		</StackPanel>
+
+	</StackPanel>
+</Window>

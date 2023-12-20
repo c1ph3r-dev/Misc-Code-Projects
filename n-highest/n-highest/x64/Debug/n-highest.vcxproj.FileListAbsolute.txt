@@ -1,0 +1,3 @@
+G:\Dev\n-highest\n-highest\x64\Debug\n-highest.vcxproj.MdMergeInputs.cache
+G:\Dev\n-highest\n-highest\x64\Debug\n-highest.vcxproj.cppwinrt_plat.cache
+G:\Dev\n-highest\n-highest\x64\Debug\n-highest.vcxproj.cppwinrt_comp.cache
